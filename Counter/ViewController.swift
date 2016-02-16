@@ -22,6 +22,7 @@ class ViewController: UIViewController {
         // displayLink?.addToRunLoop(NSRunLoop.currentRunLoop(), forMode:NSRunLoopCommonModes)
         // displayLink?.paused = true
     }
+    @IBOutlet weak var local: Display!
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

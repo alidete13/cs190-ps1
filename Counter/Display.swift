@@ -159,6 +159,10 @@ class Display: UIView {
         // This needs re-doing. The segmentWidth is the whole view width. It should only be one-fifteenth of that.
         let sscRect = CGRectMake(xOrigin, yOrigin, bounds.size.width, segmentHeight)
         // This needs completing. It only draws one SSC. It needs to be put in a loop to show all 15 SSCs.
+        var segmentMasks: [Int] = [-1,2,3,4,5,6,7,8,9,0,9,9]
+        for segmentMasks in masks{
+            print(segmentMasks)
+        }
         drawSSC(context, sscRect:sscRect, mask:segmentMasks[8])
     }
 
