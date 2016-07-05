@@ -23,6 +23,7 @@ class ViewController: UIViewController {
         // displayLink?.paused = true
     }
     @IBOutlet weak var local: Display!
+    @I
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -42,4 +43,7 @@ class ViewController: UIViewController {
     // func prepareForVSync(sender: CADisplayLink) {
     // }
     
+    
+    
 }
+ 
